@@ -1,0 +1,24 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <!-- TextView để hiển thị số thứ tự của bài hát -->
+    <TextView
+        android:id="@+id/text_view_song_number"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18sp" />
+
+    <!-- TextView để hiển thị thông tin của bài hát -->
+    <TextView
+        android:id="@+id/text_view_song_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:textSize="18sp" />
+
+</LinearLayout>
